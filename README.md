@@ -16,7 +16,7 @@ O jogo é iniciado sem mostrar nenhuma das peças, o jogador deve informar duas 
 
 Após informadas o programa compara se as peças são iguais, caso sejam elas aparecerão até o final do jogo no tabuleiro, caso não sejam o programa vai mostrar as peças, esperar 5 segundos e retornar ao estado anterior
 
-A cada acerto é contado no placar "Acertos: ", após 25 acertos é considerado vótória (todas as peças foram acertadas) e o jogo te dá os prabéns
+A cada acerto é contado no placar "Acertos: ", após 25 acertos é considerado vitória (todas as peças foram acertadas) e o jogo te dá os prabéns
 
 ## Requisitos funcionais
 
