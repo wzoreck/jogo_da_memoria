@@ -24,7 +24,7 @@ A cada acerto é contado no placar "Acertos: ", após 25 acertos é considerado 
 2. As peças devem ser caracteres de A a Y, e distribuídas aleatóriamente
 3. Peças só devem ser mostradas quando informadas pelo jogador - linha e coluna
 4. A comparação deve ser entre duas peças por vez
-5. Caso as peças sejam diferentes, esperar 5 segundos e limpa a tela
+5. Caso as peças sejam diferentes, esperar 5 segundos e limpar a tela
 6. Caso as peças sejam iguais, o conteúdo deve ser mantido na tela
 7. Deve ser executado o loop até que o jogador acerte todas as peças
 
