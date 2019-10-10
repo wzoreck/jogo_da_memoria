@@ -7,9 +7,8 @@ Este é um trabalho a ser entregue na disciplina de Programação Estruturada
 
 ![](/imagens/print.png)
 
-## Informações do desenvolvimento
 
-| Informações                     |
+| Informações do desenvolvimento  |
 |---------------------------------|
 | Sistema Operacional: Linux Mint |
 | Editor: Atom                    |
@@ -17,7 +16,7 @@ Este é um trabalho a ser entregue na disciplina de Programação Estruturada
 | Terminal: Xterm                 |
 
 
-## Sobre a matéria
+## Sobre
 
 | Informações                                             |
 |---------------------------------------------------------|
