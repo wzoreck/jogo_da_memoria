@@ -105,12 +105,14 @@ int main(){
         }
 
         // Comaparação se as peças são iguais, e restrições
-        if(tabuleiro[peca1X][peca1Y] == tabuleiro[peca2X][peca2Y] && (peca1X!=peca2X || peca1Y!=peca2Y) && (acertos[peca1X][peca1Y] == '-' && acertos[peca2X][peca2Y] == '-')){
-            acertos[peca1X][peca1Y]= tabuleiro[peca1X][peca1Y];
-            acertos[peca2X][peca2Y]= tabuleiro[peca2X][peca2Y];
-            controleWhile++;
-        } else{
-            (sleep(5));
+        if((peca1Y>=0 && peca1Y<5) && (peca1X>=0 && peca1X<10) && (peca2Y>=0 && peca2Y<5) && (peca2X>=0 && peca2X<10)){
+            if(tabuleiro[peca1X][peca1Y] == tabuleiro[peca2X][peca2Y] && (peca1X!=peca2X || peca1Y!=peca2Y) && (acertos[peca1X][peca1Y] == '-' && acertos[peca2X][peca2Y] == '-')){
+                acertos[peca1X][peca1Y]= tabuleiro[peca1X][peca1Y];
+                acertos[peca2X][peca2Y]= tabuleiro[peca2X][peca2Y];
+                controleWhile++;
+            } else{
+                (sleep(5));
+            }
         }
         system("clear");
     }
